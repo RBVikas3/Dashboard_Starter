@@ -19,7 +19,7 @@ const Sidevbar = () => {
                 {SidebarData.map((item, index) => {
                     return (
 
-                        <div className={selected === index ? 'menuItem active' : 'menuItem'}
+                        <div className='menuItem'
 
                             key={index}
                             onClick={() => setSelected(index)}
