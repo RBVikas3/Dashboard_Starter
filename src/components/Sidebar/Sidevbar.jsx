@@ -5,7 +5,6 @@ import { SidebarData } from '../../Data/Data'
 import { UilSignOutAlt } from '@iconscout/react-unicons'
 const Sidevbar = () => {
 
-    const [selected, setSelected] = useState(0)
     return (
 
         <div className="sidebar">
@@ -22,7 +21,6 @@ const Sidevbar = () => {
                         <div className='menuItem'
 
                             key={index}
-                            onClick={() => setSelected(index)}
                         >
                             <item.icon />
 
